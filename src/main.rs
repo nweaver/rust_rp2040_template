@@ -63,19 +63,19 @@ fn main() -> ! {
 	delay.delay_ms(500);
 
 	iter = iter + 1;
-	if((iter & 1) == 1){
+	if (iter & 1) == 1 {
 	    led_pin1.set_high().unwrap();
 	} else {
 	    led_pin1.set_high().unwrap();
 	}
 
-	if(((iter >> 1) & 1) == 1){
+	if ((iter >> 1) & 1) == 1 {
 	    led_pin2.set_high().unwrap();
 	} else {
 	    led_pin2.set_high().unwrap();
 	}
 
-	if(((iter >> 2) & 1) == 1){
+	if ((iter >> 2) & 1) == 1 {
 	    led_pin3.set_high().unwrap();
 	} else {
 	    led_pin3.set_high().unwrap();

@@ -20,7 +20,7 @@ panic-halt= "0.2.0"
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "app"
+name = "testapp"
 test = false
 bench = false
 
