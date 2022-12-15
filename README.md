@@ -1,5 +1,5 @@
 Basic skeleton of a Rust project for Raspberry Pi Pico/RP2040
-microcontrollers, from.
+microcontrollers, from
 
 https://www.fullstacklabs.co/blog/rust-raspberry-pi-pico-blink
 
