@@ -66,19 +66,19 @@ fn main() -> ! {
 	if (iter & 1) == 1 {
 	    led_pin1.set_high().unwrap();
 	} else {
-	    led_pin1.set_high().unwrap();
+	    led_pin1.set_low().unwrap();
 	}
 
 	if ((iter >> 1) & 1) == 1 {
 	    led_pin2.set_high().unwrap();
 	} else {
-	    led_pin2.set_high().unwrap();
+	    led_pin2.set_low().unwrap();
 	}
 
 	if ((iter >> 2) & 1) == 1 {
 	    led_pin3.set_high().unwrap();
 	} else {
-	    led_pin3.set_high().unwrap();
+	    led_pin3.set_low().unwrap();
 	}
     }
 }
