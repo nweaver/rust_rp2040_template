@@ -1,22 +1,24 @@
 [package]
-authors = ["Kevin Asbury <kevin@fullstacklabs.co>"]
+authors = ["Nicholas Weaver, based on Kevin Asbury <kevin@fullstacklabs.co>"]
 edition = "2021"
 readme = "README.md"
 name = "testapp"
 version = "0.1.0"
 
+# Updated to latest
 [dependencies]
-rp-pico = "0.3.0"
-cortex-m = "0.7.3"
-cortex-m-rt = "0.7.0"
+rp-pico = "0.6.0"
+cortex-m = "0.7.6"
+cortex-m-rt = "0.7.2"
 embedded-time = "0.12.0"
 panic-probe = { version = "0.3.0", features = ["print-defmt"] }
-rp2040-hal = { version="0.4.0", features=["rt"] }
+rp2040-hal = { version="0.7.0", features=["rt"] }
 rp2040-boot2 = "0.2.0"
 defmt = "0.3.0"
 defmt-rtt = "0.3.0"
-embedded-hal ="0.2.5"
+embedded-hal ="0.2.7"
 panic-halt= "0.2.0"
+fugit="0.3.6"
 
 # this lets you use `cargo fix`!
 [[bin]]
